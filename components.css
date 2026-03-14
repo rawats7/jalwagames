@@ -1,0 +1,75 @@
+.top-icon{
+width:90px;
+margin-bottom:15px;
+}
+
+.channel-name{
+font-size:32px;
+font-weight:bold;
+background:linear-gradient(45deg,#00bfff,#0088cc,#00e1ff);
+-webkit-background-clip:text;
+-webkit-text-fill-color:transparent;
+display:flex;
+align-items:center;
+justify-content:center;
+gap:8px;
+margin-bottom:12px;
+}
+
+.tick-img{
+width:40px;
+height:40px;
+}
+
+.trusted{
+font-size:22px;
+font-weight:bold;
+color:#ff3b3b;
+margin-bottom:10px;
+}
+
+.sub-text{
+font-size:18px;
+color:#00c3ff;
+margin-bottom:25px;
+}
+
+.points{
+text-align:left;
+margin-bottom:30px;
+}
+
+.points li{
+list-style:none;
+margin:10px 0;
+font-size:16px;
+}
+
+.points li::before{
+content:"✔ ";
+color:#22c55e;
+font-weight:bold;
+}
+
+.join-btn{
+display:inline-flex;
+align-items:center;
+justify-content:center;
+gap:10px;
+background:#0088cc;
+color:white;
+text-decoration:none;
+padding:16px 28px;
+font-size:20px;
+border-radius:10px;
+}
+
+.join-btn img{
+width:24px;
+}
+
+.note{
+margin-top:15px;
+font-size:14px;
+color:#94a3b8;
+}

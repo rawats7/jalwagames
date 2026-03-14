@@ -1,0 +1,29 @@
+.trusted{
+animation:redGlow 1.2s infinite;
+}
+
+@keyframes redGlow{
+0%{transform:scale(1);text-shadow:0 0 5px rgba(255,0,0,0.4);}
+50%{transform:scale(1.05);text-shadow:0 0 18px rgba(255,0,0,0.9);}
+100%{transform:scale(1);text-shadow:0 0 5px rgba(255,0,0,0.4);}
+}
+
+.sub-text{
+animation:blueGlow 1.2s infinite;
+}
+
+@keyframes blueGlow{
+0%{transform:scale(1);text-shadow:0 0 5px rgba(0,195,255,0.4);}
+50%{transform:scale(1.05);text-shadow:0 0 18px rgba(0,195,255,0.9);}
+100%{transform:scale(1);text-shadow:0 0 5px rgba(0,195,255,0.4);}
+}
+
+.join-btn{
+animation:btnPulse 1.2s infinite;
+}
+
+@keyframes btnPulse{
+0%{transform:scale(1);box-shadow:0 0 5px rgba(0,136,204,0.5);}
+50%{transform:scale(1.07);box-shadow:0 0 18px rgba(0,136,204,0.9);}
+100%{transform:scale(1);box-shadow:0 0 5px rgba(0,136,204,0.5);}
+}
